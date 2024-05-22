@@ -1,0 +1,40 @@
+[
+  {
+    "id":"111462818717842026029"
+   ,"Identification":{
+      "Name":"Oracle APEX Accounts"
+    }
+   ,"Settings":{
+      "Type":"Oracle APEX Accounts"
+    }
+   ,"Session Not Valid":{
+      "Redirect to":"Login Page"
+    }
+   ,"Login Processing":{
+      "Switch in Session":false
+    }
+   ,"Real Application Security":{
+      "RAS Mode":"Disabled"
+    }
+  }
+ ,{
+    "id":"113866369984742373717"
+   ,"Identification":{
+      "Name":"CUSTOM_AUTH"
+    }
+   ,"Settings":{
+      "Type":"Custom"
+     ,"Authentication Function Name":"custom_auth"
+     ,"Enable Legacy Authentication Attributes":false
+    }
+   ,"Session Not Valid":{
+      "Redirect to":"Login Page"
+    }
+   ,"Login Processing":{
+      "Switch in Session":false
+    }
+   ,"Real Application Security":{
+      "RAS Mode":"Disabled"
+    }
+  }
+]
